@@ -1,28 +1,31 @@
-# Purchase Management for Perfex CRM
+# Purchase-Management-SAAS
 
-> Enterprise Purchase Management module for **Perfex CRM** that digitizes and automates the complete procurement lifecycle—from purchase requests to supplier payments.
+> **Purchase-Management-SAAS** is a modern, enterprise-grade Procurement & Source-to-Pay (S2P) platform inspired by the Purchase Management module for Perfex CRM and redesigned as a standalone Software-as-a-Service (SaaS) solution.
 
-> **Note**
-> This is a **module for Perfex CRM** and **not** a standalone application.
+> **Status:** Under Active Development
 
 ---
 
-## Overview
+# Overview
 
-Purchase Management extends Perfex CRM with a complete Source-to-Pay (S2P) procurement solution, allowing organizations to manage purchasing operations through a centralized and fully digital workflow.
+Purchase-Management-SAAS is an end-to-end procurement platform that digitizes and automates the entire purchasing lifecycle, enabling organizations to streamline procurement operations, improve supplier collaboration, control spending, and gain complete visibility over purchasing activities.
 
-The module helps companies:
+The platform covers the complete procurement process:
 
-- Automate procurement workflows
-- Manage suppliers and vendor relationships
-- Control purchasing budgets and spending
-- Compare supplier quotations
-- Generate Purchase Orders
-- Track invoices and payments
-- Manage supplier contracts
-- Handle returns and debit notes
-- Optimize inventory replenishment
-- Monitor purchasing performance through reports
+- Purchase Requests
+- Supplier Management
+- RFQs & Quotations
+- Quote Comparison
+- Purchase Orders
+- Goods Receiving
+- Supplier Contracts
+- Purchase Invoices
+- Payments
+- Returns & Debit Notes
+- Procurement Analytics
+- Supplier Portal
+
+Designed with scalability in mind, the platform supports organizations ranging from SMEs to large enterprises through a modular and extensible architecture.
 
 ---
 
@@ -32,7 +35,13 @@ The module helps companies:
 Purchase Request
         │
         ▼
-Supplier RFQ / Quotation
+Approval Workflow
+        │
+        ▼
+Supplier RFQ
+        │
+        ▼
+Supplier Quotations
         │
         ▼
 Quotation Comparison
@@ -50,358 +59,287 @@ Purchase Invoice
 Payment
         │
         ▼
-Reporting & Analytics
+Supplier Performance & Analytics
 ```
 
 ---
 
-# Features
+# Core Modules
 
-## Product & Service Management
+## Product & Catalog Management
 
-- Product catalog
-- Service catalog
-- SKU management
-- Product codes
-- Purchase prices
-- Product images
+- Product Catalog
+- Service Catalog
+- SKU Management
+- Product Codes
+- Product Images
+- Purchase Prices
 - Commodity Groups
 - Commodity Sub-Groups
-- Bulk product import
+- Units of Measure
+- Bulk Import
 
 ---
 
 ## Supplier Management
 
-- Supplier database
-- Supplier categories
-- Supplier contacts
-- Supplier products
-- Return policies
-- Custom supplier fields
-- Supplier mass import
+- Supplier Profiles
+- Supplier Categories
+- Contacts
+- Banking Information
+- Product Catalog
+- Certifications
+- Return Policies
+- Documents
+- Supplier Import
+- Supplier Qualification
 
 ---
 
 ## Purchase Requests
 
-- Create Purchase Requests
-- Department management
-- CAPEX / OPEX tracking
-- Project assignment
-- Approval workflow
-- Auto-generated request numbers
-- Warehouse item validation
+- Purchase Requisitions
+- Department Requests
+- CAPEX / OPEX Classification
+- Project Assignment
+- Budget Validation
+- Approval Workflows
+- Request Templates
+- Auto Numbering
 
 ---
 
-## Supplier Quotations (RFQ)
+## RFQ & Supplier Quotations
 
-- Request quotations
-- Receive quotations
-- Attach documents
-- Send RFQs directly to suppliers
-- Public quotation links
-- Quote comparison
+- Request for Quotations (RFQ)
+- Supplier Invitations
+- Online Supplier Responses
+- Attachments
+- Communication History
+- Public Supplier Links
+- Quote Comparison Matrix
+- Award Recommendation
 
 ---
 
 ## Purchase Orders
 
-- Purchase Order generation
-- Auto numbering
-- Purchase Order PDF
-- Vendor information footer
-- Client reference
-- Taxes & discounts
-- Order attachments
+- Purchase Order Generation
+- Multi-Currency
+- Taxes & Discounts
+- Approval Workflow
+- Attachments
 - Notes
-- Tags
-- Custom fields
-- Purchase Order reports
+- Custom Fields
+- Vendor Information
+- PDF Generation
+- Email Distribution
 
 ---
 
-## Contracts
+## Goods Receipt
 
-- Supplier contracts
-- Contract reminders
-- Contract attachments
-- Contract tasks
-- Notes
-- Payments
-- Contract description
-- Contract filters
+- Receive Goods
+- Partial Deliveries
+- Delivery Tracking
+- Warehouse Validation
+- Goods Inspection
+- Receiving History
+
+---
+
+## Supplier Contracts
+
+- Contract Repository
+- Contract Lifecycle
+- Contract Renewals
+- Milestones
+- Attachments
+- Tasks
+- Payment Schedule
+- Expiration Alerts
 
 ---
 
 ## Purchase Invoices
 
-- Invoice from Purchase Order
-- Invoice from Contract
-- Payment approval
-- Payment records
-- Tasks
-- Notes
+- Invoice Matching
+- PO-Based Invoices
+- Contract-Based Invoices
+- Payment Approval
+- Invoice Workflow
+- Payment Records
 - Attachments
-- Reminders
+- Notes
 
 ---
 
-## Payment Management
+## Payments
 
-- Payment approval
-- Payment tracking
-- Outstanding balances
-- Payment history
+- Payment Requests
+- Approval Workflow
+- Payment Tracking
+- Outstanding Balances
+- Payment History
 
 ---
 
 ## Returns
 
-- Return Purchase Orders
-- Supplier return management
+- Return Orders
 - Debit Notes
+- Supplier Claims
+- Return Tracking
 
 ---
 
-## Reporting
+## Reporting & Analytics
 
-- Purchase Order reports
-- Purchase Invoice reports
-- Cost analysis
-- Import cost per item
-- Purchase statistics
-- Cost statistics
-
----
-
-## Configuration
-
-- General settings
-- Purchasing options
-- Units
-- Commodity groups
-- Commodity sub-groups
-- Supplier categories
-- Approval workflows
-- Permissions
-- Return settings
-- Currency exchange rates
+- Procurement Dashboard
+- Purchase Spend Analysis
+- Supplier Spend
+- Purchase Order Reports
+- Invoice Reports
+- Cost Analysis
+- Procurement KPIs
+- Executive Reports
 
 ---
 
-# Vendor Portal
+# Supplier Portal
 
-Suppliers can securely access their own workspace.
+A dedicated self-service portal allowing suppliers to interact directly with the procurement department.
 
 ### Features
 
-- Login
 - Registration
+- Authentication
 - Company Profile
-- Product Management
-- Product Sharing
-- Purchase Requests
+- Product Catalog
+- RFQs
 - Quotations
 - Purchase Orders
 - Contracts
 - Invoices
 - Payments
-- Return Orders
+- Return Requests
+- Notifications
 
 ---
 
-# Integration
+# Platform Features
 
-Designed to work seamlessly with other Perfex CRM enterprise modules.
+- Enterprise Procurement
+- Source-to-Pay (S2P)
+- Procure-to-Pay (P2P)
+- Multi-Company
+- Multi-Department
+- Multi-Currency
+- Multi-Language
+- Role-Based Access Control (RBAC)
+- Approval Workflows
+- Audit Trail
+- Document Management
+- Notifications
+- Dashboard & Analytics
+- REST API
+- Responsive Design
+
+---
+
+# Planned Integrations
+
+Purchase-Management-SAAS is designed as part of a larger enterprise ecosystem.
 
 - Inventory Management
-- Accounting & Bookkeeping
-- Manufacturing Management
-- Omni Channel Sales
-- Report Builder
-- Workflow Automation
+- Warehouse Management (WMS)
+- Accounting & Finance
+- Manufacturing (MRP)
+- Supplier Performance Management (SPM)
 - Product Lifecycle Management (PLM)
+- Workflow Automation
+- Business Intelligence
+- Report Builder
+- CRM
+- ERP
+- E-commerce Platforms
+- AI Procurement Copilot
 
 ---
 
-# Key Benefits
+# Technology Goals
 
-- End-to-end procurement management
-- Supplier relationship management
-- Procurement process standardization
-- Approval workflow automation
-- Real-time purchasing visibility
-- Better spending control
-- Reduced manual operations
-- Complete procurement audit trail
-- Multi-language support
-
----
-
-# Screenshots
-
-| Dashboard | Purchase Orders | Suppliers |
-|------------|-----------------|-----------|
-| Add screenshots here | Add screenshots here | Add screenshots here |
+- Modern SaaS Architecture
+- Modular Design
+- API-First
+- Cloud Native
+- Microservice Ready
+- Event-Driven Integrations
+- Enterprise Security
+- High Scalability
+- High Availability
 
 ---
 
-# Demo
+# Roadmap
 
-Live Demo
+### Phase 1
 
-> Add your demo URL here.
+- Product Catalog
+- Supplier Management
+- Purchase Requests
+- Purchase Orders
 
----
+### Phase 2
 
-# Requirements
+- RFQs
+- Supplier Portal
+- Contracts
+- Purchase Invoices
 
-- Perfex CRM
-- PHP
-- MySQL
-- Web Server (Apache / Nginx)
+### Phase 3
+
+- Inventory Integration
+- Accounting Integration
+- Reporting Engine
+- Workflow Automation
+
+### Phase 4
+
+- AI Procurement Assistant
+- Predictive Procurement
+- Spend Analytics
+- Supplier Risk Analysis
+- Intelligent Approval Routing
 
 ---
 
 # Installation
 
-1. Download the module.
-2. Upload it to the Perfex CRM modules directory.
-3. Activate the module from **Setup → Modules**.
-4. Configure purchasing settings.
-5. Start managing procurement.
+```bash
+git clone https://github.com/<your-username>/Purchase-Management-SAAS.git
 
-For detailed installation instructions, refer to the included documentation.
+cd Purchase-Management-SAAS
+```
 
----
-
-# Multi-language Support
-
-Includes translations for:
-
-- Bulgarian
-- Catalan
-- Chinese
-- Czech
-- Dutch
-- English
-- French
-- German
-- Greek
-- Indonesian
-- Italian
-- Japanese
-- Persian
-- Polish
-- Portuguese
-- Romanian
-- Russian
-- Slovak
-- Spanish
-- Swedish
-- Turkish
-- Ukrainian
-- Vietnamese
+Installation documentation will be provided as development progresses.
 
 ---
 
-# Changelog
+# Contributing
 
-## Version 1.0.9
+Contributions, suggestions, and feature requests are welcome.
 
-### New Features
-
-- Enhanced Vendor Management
-- Department / CAPEX / OPEX fields
-- Purchase Request improvements
-- Commodity Groups
-- Commodity Sub Groups
-- Vendor Categories
-- Purchase Invoice module
-- Payment Approval
-- Purchase Order improvements
-- Contract enhancements
-- Purchase reports
-- Data reset functionality
-- Multi-language support
-
----
-
-## Version 1.0.6
-
-- Public Purchase Order links
-- Public Quotation links
-- Multiple attachments
-- Purchase Order tasks
-- Vendor information on PO
-- Product sub-groups
-- PDF improvements
-
----
-
-## Version 1.0.5
-
-- Inventory Management integration hooks
-
----
-
-## Version 1.0.4
-
-- Bulk item actions
-- Vendor custom fields
-- Terms & Conditions
-- Purchase Order improvements
-
----
-
-## Version 1.0.3
-
-- Vendor Portal fixes
-- Product allocation by vendor
-
----
-
-## Version 1.0.2
-
-- Purchase Order auto numbering
-- Expense conversion
-- Vendor Portal
-- Vendor profile enhancements
-- Unit price editing
-- Notes & attachments
-
----
-
-## Version 1.0.0
-
-Initial Release
-
----
-
-# Support
-
-If you encounter any issues or need assistance, please contact our support team by opening a support ticket.
+Please open an Issue or submit a Pull Request.
 
 ---
 
 # License
 
-Commercial module for Perfex CRM.
+This project is licensed under the MIT License.
 
 ---
 
-## Related Modules
+# Acknowledgments
 
-- Inventory Management
-- Accounting & Bookkeeping
-- Manufacturing Management
-- Omni Channel Sales
-- Workflow Automation
-- Product Lifecycle Management
-- Report Builder
-
----
-
-**Built for organizations seeking a complete digital procurement solution inside Perfex CRM.**
+Purchase-Management-SAAS is inspired by enterprise procurement best practices and modern Source-to-Pay platforms, with the objective of delivering a scalable, modular, and open procurement solution for organizations of all sizes.
