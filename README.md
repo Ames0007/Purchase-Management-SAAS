@@ -27,6 +27,23 @@ The platform covers the complete procurement process:
 
 Designed with scalability in mind, the platform supports organizations ranging from SMEs to large enterprises through a modular and extensible architecture.
 
+<img width="1604" height="835" alt="add_quotation" src="https://github.com/user-attachments/assets/c47edafe-a7b2-433b-8719-59cc41b1cfc9" />
+<img width="1653" height="833" alt="contract_add" src="https://github.com/user-attachments/assets/7f32fb26-42f0-4035-9e81-b09819861a21" />
+<img width="1920" height="1695" alt="create_invoice" src="https://github.com/user-attachments/assets/cff1d119-0412-4760-bf36-a3e6fe5f6a0e" />
+<img width="1661" height="723" alt="create_or2" src="https://github.com/user-attachments/assets/89c09819-feb7-4609-81a2-9e8e5207ee6e" />
+<img width="1667" height="487" alt="currency_rate_log" src="https://github.com/user-attachments/assets/3ef4536e-48a5-4632-a6e8-707e6cb2e00d" />
+<img width="1664" height="615" alt="currency_rates_setting1" src="https://github.com/user-attachments/assets/ff2b0b6a-514c-4e63-b0ee-beadd7fbcd7f" />
+<img width="1654" height="770" alt="debit_note" src="https://github.com/user-attachments/assets/2e89b986-f7b8-4f8d-b687-082408ad2069" />
+<img width="1591" height="710" alt="detail_po2" src="https://github.com/user-attachments/assets/8c2ecc14-00a5-42ba-9c66-2ec543de7e58" />
+<img width="1670" height="756" alt="detail_project" src="https://github.com/user-attachments/assets/24b751ad-227a-4f2c-8b47-b24f0ad741fb" />
+<img width="1633" height="724" alt="item" src="https://github.com/user-attachments/assets/ca17fce0-f040-415b-9078-055116e5be75" />
+
+
+
+
+
+
+
 ---
 
 # Procurement Lifecycle
